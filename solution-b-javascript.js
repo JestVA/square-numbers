@@ -9,5 +9,47 @@
 //- A better solution is this:
 
 
-numberList = Array(20).fill('first-20-sqn').map((element, key) => Math.pow(key + 1, 2))
-console.log(numberList)
+
+// // const myArg = process.argv;
+// const newArray = [...Array(myArg).keys()];
+// console.log(newArray)
+
+// const N = process.argv;
+// console.log(Array.from({ length: N }, (v, i) => i))
+
+
+
+// console.log(args)
+// // numberList = Array(...args).fill('the-args').map((element, key) => Math.pow(key + 1, 2))
+// // console.log(...args)
+
+
+// const array = [...Array(5).keys()]
+// console.log(array)
+
+
+// for (i = 2; i < process.argv.length; i++){
+//   console.log(process.argv[i]);
+//   }
+
+
+// argv = process.argv;
+// console.log[Array(...argv(argv[2]))];
+
+
+
+
+// const userInput = process.argv;
+// const userArray = (...userInput).keys();
+// console.log(userArray)
+
+// userInput !== 0 ? (...userInput)
+
+// function makeSquares() {
+
+// };
+
+// function useCommandLine() {
+
+// };
+
